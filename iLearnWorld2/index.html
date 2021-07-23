@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="logo.ico" />
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>知识天地</title>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+  <br />
+  <h2><b>知识天地</b></h2>
+  <br />
+  <div class="container" style="text-align: left;">
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">？了解知识天地</button>
+    <div id="demo" class="collapse">
+      <h2>知识天地简介</h2>
+      <p class="indent">
+        知识天地是一款免费的能够用来学习的网站。它的主页分为三块内容：文章、小百科、作者。<span style="background-color: orange;"><b><a
+              style="color: red;">文章</a></b></span>的内容主要是大面积内容的学习，如：圣诞节，可以包含节日的起源、圣诞老人和圣诞树的知识。但是并不是非常具体。要看很细致化的内容，<span
+          style="background-color: yellow;"><b><a style="color: orange;">小百科</a></b></span>绝对是最佳选择。<span
+          style="background-color: yellowgreen;"><b><a
+              style="color: yellow;">作者</a></b></span>这一部分并不只是包含作者的内容、信息，还包含对广大朋友们提出问题的回答和一些生活方面的文章。还有，网站里的大部分内容都是从百度百科里搜出来的，如果有改动，会在文章末尾显示出来哦！不过，作者也是要休息哒！我们有时会把一部分内容放在网站里，但一定会在文末提供查找百度的渠道哦！想看完整内容或比较喜欢百度百科风格的浏览，都可以翻到文末查看哦！首页的每一篇文章题目上都会注上标签。<span
+          class="badge badge-danger">Hot</span>标签表示是观看的人多的；<span class="badge badge-warning">New</span>标签表示是最新发布的；<span
+          class="badge badge-success">Good</span>标签表示是经审核后非常好的。大家通过这些标签，就可以从中挑选自己更加心仪的文章啦！
+      </p>
+      <p class="indent">
+        哦，还有一件事情，差点忘了：知识天地将会不断更新，满足各位客户的视觉和学习需求，还会加进更多好玩而又新奇的功能，让您在本网站拥有更好的体验！
+      </p>
+    </div>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:closeNav()" class="closebtn" onlick="closeNav()">
+      &times;
+    </a>
+    <a href="#first">文章</a>
+    <a href="#second">小百科</a>
+    <a href="#third">作者</a>
+    <hr />
+    <a href="contect.html" target="_blank">反馈/联系/投稿</a>
+  </div>
+  <br />
+  <span style="font-size:20px; cursor:pointer" onclick="openNav()">&#9776; 打开列表</span>
+  <br />
+  <br />
+  <hr />
+  <h3 id="first" class="header"><b>文章：</b></h3>
+  <ul id="myUL">
+    <li>
+      <h5>圣诞专辑：</h5>
+    </li>
+    <ul>
+      <li><a href="文章/christmas.html" target="_blank">
+          <span class="badge badge-danger">Hot</span>
+          <span class="badge badge-warning">New</span>
+          <span class="badge badge-success">Good</span>
+          圣诞节专辑--圣诞节的那些事 : 2020/11/28 - 2020/1/9</a>
+      </li>
+    </ul>
+  </ul>
+  <br />
+  <h3 id="second" class="header"><b>小百科：</b></h3>
+  <ul id="myUL">
+    <li>
+      <h5>圣诞专辑：</h5>
+    </li>
+    <ul>
+      <li><a href="小百科/santa.html" target="_blank">
+          圣诞老人专辑--圣诞老人是什么 : 2020/11/29（新版）</a></li>
+      <li><a href="小百科/primary_santa.html" target="_blank">
+          圣诞老人--圣诞老人（西方文化的传说人物） : 2020/11/28（原版）</a></li>
+    </ul>
+  </ul>
+  <br />
+  <h3 id="third" class="header"><b>作者：</b></h3>
+  <ul id="myUL">
+    <li><a href="author.html" target="_blank">
+        <span class="badge badge-secondary">Writer</span>
+        作者简介--作者的秘密信息 : 小浩、轩轩</a>
+    </li>
+    <li><a href="say.html" target="_blank">
+      公告：知识天地-2 iLearnWorld-2 将停止更新
+    </a></li>
+  </ul>
+  <br />
+  <br />
+  <div>
+    <p style="text-align: center;">
+      &copy; iLearnWorld 2021
+      <a href="about.html" target="_blank">关于知识天地</a> |
+      <a href="contect.html" target="_blank">联系我们</a> |
+      <a href="version.html">查看历届版本</a> |
+    </p>
+  </div>
+  <br />
+</body>
+
+</html>

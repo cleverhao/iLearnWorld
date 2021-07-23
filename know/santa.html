@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width-device=width, initial-scale=1.0, shrink-to-fit=0" />
+  <link rel="shortcut icon" href="../logo.ico" />
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>圣诞专辑</title>
+  <style>
+    p.indent {
+      text-indent: 32px;
+    }
+  </style>
+</head>
+
+<body style="background-color:pink">
+  <h1 id="top" style="text-align:center;">圣诞老人是什么</h1>
+  <br />
+  <ol class="navbar">
+    <li class="nav-item"><a class="nav-link" href="#first">简介</a></li>
+    <li class="nav-item"><a class="nav-link" href="#second">角色起源</a></li>
+    <li class="nav-item"><a class="nav-link" href="#third">角色居所</a></li>
+    <li class="nav-item"><a class="nav-link" href="#fourth">传说故事</a>
+      <ul>
+        <li class="nav-item active"><a class="nav-link" href="#fourth1">传说</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#fourth2">故事</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#fourth3">溯源</a></li>
+      </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#last">更多...</a></li>
+  </ol>
+  <br />
+  <hr />
+  <h2 id="first">简介</h2>
+  <p>圣诞老人（Santa Claus）是西方神话传说中的人物，在传说中西方圣诞节前夜时悄悄赠送礼物给小孩子，是耶稣基督诞辰瞻礼即西方圣诞节的代表角色
+    之一。他普遍被认为是基督教的圣人圣·尼古拉斯（Saint Nicholas）的衍生形象，圣诞老人的起源或与一种被称为毒蝇伞的红白相间蘑菇有关。
+    传说每到12月24日晚上，有个神秘人会乘驾由9只驯鹿拉的雪橇在天上飞翔，挨家挨户地从烟囱进入屋里，然后偷偷把礼物放在孩子床头的袜子里，
+    或者堆在壁炉旁的圣诞树下。他在一年中的其他时间里，都是忙于制作礼物和监督孩子们的行为。 虽然没有人真的见过神秘人的样子，
+    但是人们会装扮成他的样子来给孩子送上礼物。他通常被描述为一位老人，头戴红色帽子，大大的白色胡子，一身红色棉衣，脚穿红色靴子的样子，
+    拿着装有礼物的大袋子，因为总在圣诞节前夜出现派发礼物，所以习惯地称他为“圣诞老人”。</p>
+  <img
+    src="data:image/jpeg;base64,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"
+    alt="背着包袱的圣诞老人" width="500" />
+  <br />
+  <hr />
+  <h2 id="second">角色起源</h2>
+  <p>
+    圣诞老人源于欧洲的基督教圣人典故。他拥有9只名字各不相同的驯鹿，最大的烦恼是有烟囱爬的房子越来越少了。通常父母们会对他们的子女解释他们在圣诞节收到的礼物是圣诞老人送的。圣诞老人以一位神秘人物带给小孩子们礼物的概念衍生自圣尼古拉。尼古拉是一位生活在4世纪小亚细亚的热爱施舍的慈悲主教，荷兰人在圣尼古拉斯节（12月6日）便会模仿他送礼物。
+    每年圣诞节，圣诞老人骑在驯鹿上，圣童手持圣诞树降临人间，随着世事变迁，作家和艺术家开始把圣诞老人描述成我们今日熟悉的着红装，留白胡子的形象。同时不同的国度和文化对圣诞老人也有了不同的解释。在许多国家里圣诞节前夕，孩子们会准备好空的容器，以便圣诞老人可以装进一些小礼物，如玩具、糖果或水果。在美国，孩子们圣诞夜会在壁炉上悬挂圣诞袜，因为圣诞老人说过要在圣诞前夜从烟囱下来把礼物放到袜子里。他们会在壁炉附近的桌子上放上几块姜坚果饼干（gingernut
+    cookies），据说圣诞老人在送来礼物的同时也会吃掉这些饼干。在其他国家，孩子们把空鞋放到户外，以便圣诞老人可以在圣诞夜（或圣尼古拉斯节前夕的12月5日）
+    送礼物。在德国，传说他扮成圣童把坚果和苹果放在孩子们鞋里。他乘双轮马车四处漫游，观察人们的行为，尤其是小孩，如果表现好，将会得到苹果、 坚果、糖等诸多奖品。坏孩子则挨一鞭子。家长们灵机一动纷纷采用此传说来鼓励孩子们听话。
+    在法国与圣诞老人类似的形象是Père Noel，他和圣诞老人几乎完全一样，其红白相间的衣服曾经使可口可乐公司获得灵感，在1930年代画出了传遍世界的圣诞老人主要形象。在一些文化中，
+    圣诞老人身旁跟随着可内希特·鲁普雷希特，或是称作黑彼得（荷文：Zwarte
+    Piet）的家伙。一些版本中，还存在着圣诞奶奶，玩具作坊里的侏儒制作了节日礼物，有时圣诞老人与圣诞奶奶是夫妻。圣诞季期间，在北美和英国的很多超市里，都有小孩可以向其要礼物的圣诞老人出现。
+    圣诞节成了很多国家都会过的节日，成为一个全民的节日。圣诞老人已经成为圣诞节最受喜爱的象征和传统。他赶着驯鹿，拉着装满玩具和礼物的雪橇，挨家挨户给每个孩子送礼物的快乐老精灵的形象已深深地留在人们的记忆中。每年接近圣诞节，总会有
+    （相信有圣诞老人的）小孩子寄信给圣诞老人，内容如告知其自己希望收的圣诞礼物之类，而在某些国家的邮局，为了免让他们失望， 有人会专门回复这些信件。
+    对于圣诞老人在北极的情形的描绘，巧妙地反映了人们对工业的印象。二十世纪早期，圣诞老人有些形象是他亲自以手工制造玩具，就像小工作坊里的工匠一样。后来，印象变成圣诞老人手下有许多小精灵制造玩具，但玩具依旧是各个精灵以传统方式手工完成的。
+    等到二十世纪末，西方大众充分接受了大量机器生产的现实。现代对于圣诞老人的住处的描绘，反映了这点：人们幽默地讲说他的住处乃是高度机器化的生产设施，配备了最先进的制造业科技，由精灵还有经理一般的圣诞奶奶管理。有很多电视广告将这场景经营成公司喜剧，将精灵描绘为心怀不满的员工，搞笑和作弄老板。
+    圣诞老人可以算得上是全世界家喻户晓的经典形象，他憨态可掬的亲切外形，积极乐观的态度，总能把快乐和惊喜带给大家。
+    正是这样一个鲜活的精灵，在2015年10月21日正式落户中国。来自芬兰的圣诞老人授权方，与具有八年优秀文化创意经验的国家重点动漫企业大业漫奇妙公司签署授权协议。同时，大业漫奇妙也成为中国唯一拥有原版圣诞老人运营权的公司。</p>
+  <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1616538164,3824735144&fm=26&gp=0.jpg"
+    alt="圣诞老人坐着雪橇" />
+  <br />
+  <hr />
+  <h2 id="third">角色居所</h2>
+  <p>“正版圣诞老人”，就是在圣诞老人的家乡——芬兰北部拉普兰省圣诞老人村注册，经严格审核培训并持有执照的“圣诞老人”，目前全球仅有50位。他们的出场费20万元，可谓价格不菲。
+    圣诞老人村（SantaClaus’sHouse）在芬兰拉普兰地区的罗瓦涅米（北极圈内）。
+    圣诞老人的信箱：
+    Santa’sPostOfficeFIN－96930 ArcticCircle，Finland
+    每年冬季的这个时间，是全球圣诞老人们很忙的时候。而有一个国家的圣诞老人是最忙的，它就是芬兰。在第40届世界圣诞老人大会上，丹麦属地格陵兰被确认为圣诞老人真正的故乡。
+    据说每年世界各国的圣诞老人会有一个“世界圣诞老人年会”的聚会，而芬兰的圣诞老人从来不参加这个活动，原因是他们认为圣诞老人在自己国家是一个不言自明的事实，根本不存在其他的圣诞老人。芬兰整个国家宁静安详，宛若世外桃源，圣诞老人如果不住这里，我也想不到更好的去处。姆米加上圣诞老人，还有这么多的湖泊、森林、可爱的松鼠，足以使芬兰成为全球儿童的向往之地。
+    说起圣诞老人村（SantaClaus’sHouse），全世界最有名也最正宗的当属位于北极圈上的这个，拉普兰地区的罗瓦涅米（Rovaniemi）。坐芬兰国家铁路从赫尔辛基去罗瓦涅米，是非常愉快的旅程。可以把汽车随火车托运，芬兰国铁的火车如同西欧国家的火车一样，非常干净，头等车厢的每个包厢都有自己的洗浴设备。夜晚乘坐火车奔向北极圈上的罗瓦涅米，看着窗外夜色里明镜般的月亮，还有月光下掠过的针叶林和水面上闪耀的月华光芒，是芬兰旅程里难忘的记忆。
+    早上到达罗瓦涅米的时候，天还没有亮。只是晨曦里黛色的天空，和开车时一定会经过的某处湖泊让人心静如水。北极圈就在城外不远的地方。而此时此刻，我们已经到达了传说中的神奇之地：拉普兰（Lapland）。这里是白雪和驯鹿，还有圣诞老人的故乡，小时候耳熟能详的歌曲《铃儿响叮当》，描述的就是这里了。
+    空气是预想中的清冷，但是新鲜无比，十分令人愉悦，如果这个时候再洗个芬兰浴就更完美了。刚下火车，一个理想去处就是芬兰最大的酒店集团Rantasipy旗下的HotelPohjanhovi。那里的桑拿浴室规模很大，而且，那里有离河岸只有几米的早餐厅。
+    此时此刻，11月的最后几天，早上十点，在北极圈上的拉普兰，天色尚未全部明亮。太阳照耀大地的时间会越来越短，不用多久，这里就将进入黑夜长达20个小时的漫漫寒冬。这个时候，从传统的芬兰浴室（萨乌纳）里洗完出来，在有着温暖灯光的早餐厅里，看着窗外的初雪，还有沿岸金黄落叶环绕的树林，可以发呆，可以什么都不想，真是生命里难得的安静时刻。
+    圣诞老人的家，在拉普兰的密林深处，和驯鹿和拉普兰人一起。成年的驯鹿有十分引人注目的角。拉普兰人的住所十分醒目，屋顶好像一直斜到地面上的———是为了防止冬天太重的积雪把房屋压塌。
+    我们去看圣诞老人的时候，他就在自己的小屋里。屋里很暖和，壁炉里的火正旺，圣诞老人很和蔼，一切都跟预想的一样。屋里的男女洗手间的标记也非常有意思，正在研读之际，听见圣诞老人打电话的声音，是圣诞老人在给同行一位朋友的孩子打电话呢。他可真够忙的，每年要收数以百万封从世界各地发来的信，而他也要给这些孩子们回信，回信的邮戳就是“圣诞老人”。
+    离圣诞老人家不远就是北极圈的标志，而同样在北极圈上的，还有他的办公室以及邮局。
+    时近圣诞，他和助手们更是忙得不可开交，忙着帮访客挑选礼物（如果是虚拟的，就直接发到收件人的电子邮件信箱里）。每天还有这么多的音乐会、戏剧。走出圣诞老人的邮局，地上就可以看到一条标志北极圈纬度的线。而这条线的尽头：是一溜的路标，指向不同的方向，直至未知的远方……
+  </p>
+  <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3380443760,1706203489&fm=11&gp=0.jpg"
+    alt="圣诞老人正在整理礼物" />
+  <br />
+  <hr />
+  <h2 id="fourth">传说故事</h2>
+  <p>
+    <big id="fourth1">传说</big>
+  </p>
+  <p>
+    <b>欧洲神话中的圣诞老人</b>
+  </p>
+  <p class="indent">
+    圣诞老人是不同传说和神秘人型的结合体。传说圣诞老人是在数千年前的斯堪的纳维亚半岛即出现。北欧神话中司智慧、艺术、诗词、战争的奥丁神，寒冬时节，骑上他那八脚马坐骑驰骋于天涯海角，惩恶扬善，分发礼物。与此同时，其子雷神穿红衣以闪电为武器与冰雪诸神昏天黑地恶战一场，最终战胜寒冷。据异教传说，圣诞老人为奥丁神后裔。在德国中部和北部地区，尼古拉斯被称为“圣诞老人”，在英国被称为“圣诞父亲”，被美国的荷兰移民称为后来的“SantaClaus”。
+    在荷兰的传说中，圣诞老人Sintirklass还带了一个叫BlackPeter的助手，乘着一艘船来到。他带着一本大书，书中描述了所有荷兰小孩在过去一年中的表现。表现好的小孩就送礼物给他们，不好的小孩便让他的助手(麋鹿）带走。
+    孩子们都想知道圣诞老人住在何处，他们何时会收到礼物。答案通常是圣诞老人住在北极，他的作坊生产圣诞礼物。1927年被孩子们称做“Markus叔叔”的儿童节目主持人MarkusRautio第一次透露：圣诞老人生活在拉普兰的Korvatunturi。
+    位于芬兰东部边境地区的Korvatunturi发现了一只类似于野兔的耳朵，事实是圣诞老人的耳朵，它用来聆听孩子们的愿望。斯堪迪纳维亚的传说中讲述了圣诞老人和助手小精灵们的历史。
+    上世纪结束时，北半球不同关于圣诞老人的传说汇总成同一版本——白胡子老人为孩子们发放礼物，之后返回芬兰拉普兰的Kornatunturi。
+    1950年开始，圣诞老人快乐地逗留在napapiiri,除了圣诞节还要和孩子们及年轻人进行沟通。越来越多的人定期拜访圣诞老人，1985年，他建立了自己的工作室，每天圣诞老人都来办公室倾听孩子们的圣诞祝愿并和他们沟通交流。圣诞老人村是圣诞老人的主要邮局，它接收全世界孩子们发给圣诞老人的信件。
+  </p>
+  <br />
+  <b>主教圣·尼古拉的传说</b>
+  <br />
+  <p class="indent">
+    圣诞老人的传说来源于西方的民间传说，相传，圣诞老人叫做圣·尼古拉，他生活在公元4世纪小亚细亚的每拉城（在今土耳其境内），是位善良、慷慨、对孩子们非常好的有钱人。东正教尊重尼古拉，视其为创造奇迹的人。尼古拉的家庭很富有，父母也都是基督徒，尼古拉的父母早逝，他把财产都捐给了贫穷的人，自己加入教会，终身为社会服务。后来，尼古拉作了神父，升到了主教，在他死后，人们称他为圣徒，是一位穿着红袍，头戴红帽的白胡子老人。尼古拉的一生中做了许许多多的慈善事业，他总是喜欢在暗中帮助穷苦人民，慢慢的圣诞老人就成为了人们对他的爱称。
+  </p>
+  <br />
+  <big id="fourth2">故事</big>
+  <br />
+  <p class="indent">
+    从前有一个心地善良的贵族，他的妻子因病去逝，抛下他和他的三个女儿。这个贵族尝试了不少发明，都失败了，但也因此耗尽了钱财，所以他们不得不搬到一家农舍里生活，他的女儿们也只得亲自烧煮、缝纫和打扫。
+    一晃几年过去，女儿们陆续到了出嫁的年龄，父亲却变得更加沮丧，因为他没钱给女儿们买嫁妆。
+    一天晚上，女儿们洗完衣服后将长统袜挂在壁炉前烘干。圣人尼古拉Nicholas知道了她们父亲的境况后，就在那天晚上，来到她们的家门前。他从窗口看到一家人都已睡着了，同时也注意到了女孩们的长统袜。随即，他从口袋里掏出三小包黄金从烟囱上一个个投下去，刚好掉在女孩们的长统袜里。
+    第二天早上，女儿们醒来发现她们的长统袜里装满了金子，足够供她们买嫁妆了。这个贵族也因此能亲眼看到他的女儿们结婚，从此便过上了幸福快乐的生活。
+    后来，世界各地的孩子们都继承了悬挂圣诞袜的传统。有些国家的孩子则有其它类似的风俗，如在法国，孩子们将鞋子放在壁炉旁等等。
+  </p>
+  <br />
+  <big id="fourth3">溯源</big>
+  <br />
+  <p class="indent">
+    11世纪末来自意大利的宗教士兵将Nicholas圣人尼古拉的遗物从小亚细亚带到意大利，并在港口城市巴里Bari建造了一座教堂来纪念他。很快世界各地的基督教徒纷至沓来朝圣这位圣人。这些朝圣者将圣人Nicholas的故事带回他们的本土，所以有关圣诞老人的传说在各个国家都各具特色。
+    12世纪欧洲出现了圣人Nicholas纪念日，以互赠礼物和慈善活动为主。
+    荷兰殖民者来到美洲时，将他们的Sintirklass主教也带了去，Sintirklass身着红袈裟，骑着一匹白马。Sintirklass的美国形象后来逐渐演变成一个快乐的老精灵。起初美国作家华盛顿.欧文在他的喜剧《纽约的历史》中将他描述成一个又圆又胖的荷兰老人。1823年，诗人Clement
+    Moore在他的诗歌《St.Nicholas印象》中继续将Sintirklass/Saint Nicholas的形象戏剧化。
+    19世纪60年代卡通制作者Thomas Nash画了一幅胖胖的、慈祥的圣诞老人作为《Harper的一周》的插图。这个圣诞老人的形象开始深深地扎根于美国人民的脑海中。随着时间的推移，圣诞老人的形象传回欧洲，传到南美洲，传遍世界各地。
+  </p>
+  <br />
+  <hr />
+  <h2 id="last">......</h2>
+  <a href="https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%80%81%E4%BA%BA/570?fr=aladdin"
+    target="_blank">查找“百度百科”上的完整内容</a>
+  <br />
+  <a href="#top">返回顶部</a>
+  <br />
+  <p>本文选自百度百科</p>
+  <div style="margin-top: 30px;"></div>
+  <br />
+  <pre style="font-size: 22px; text-align: right;">                                     点击了解作者：</pre>
+  <p style="text-align: right;"><a href="../author.html" style="color:#4281DC;font-size:20px" target="_blank">
+      <em>小浩/制作 2020/11/29</em></a></p>
+
+</body>
+
+</html>

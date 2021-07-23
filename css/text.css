@@ -1,0 +1,30 @@
+body {
+    background-image: url('../background.jpg');
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+.indent {
+    text-indent: 2em;
+}
+.indentt {
+    text-indent: 4px;
+}
+.myUL {
+    border: 1px solid #ddd;
+    margin-top: 2px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    width: 300px;
+}
+a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+}
+.myUL a:hover:not(.header) {
+    background-color: #eee;
+}
